@@ -26,3 +26,7 @@ deli_line.length == 0 ? "There is nobody waiting to be served!"
 #def line (deli_line)
 # katz_deli_line = Array.authenticate_or_request_with_http_digest
 # if deli_line == 0
+# puts "The line is currently empty."
+# else deli_line.each_with_index {|name, index| katz_deli_line.push "the line is currently: #{index + 1}. #{name}."}
+# return katz_deli_line
+#end
