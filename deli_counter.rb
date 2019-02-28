@@ -1,5 +1,5 @@
 def line(deli_line)
-  if deli_line.january
+  if deli_line.
     puts "The line is currently empty."
   else
     message_string - "The line is currently:"
